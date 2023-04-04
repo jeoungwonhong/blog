@@ -81,7 +81,7 @@ nav li:first-child:hover a {
 }
 .sns {
     margin: 16px auto;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
 }
 .sns a:hover {
@@ -226,10 +226,69 @@ header h1 {
     color: #000;
 }
 
+/***** ABOUT ME *****/
+.about_me {
+    margin-bottom: 80px;
+}
+.about_me h2 {
+    padding-left: 15px;
+    font-size: 30px;
+}
+.about_me .row {
+    align-items: center;
+}
+.about_img {
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+    background: url(../images/me.jpg) no-repeat center;
+    background-size: 100%;
+    border-radius: 50%;
+}
+.profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.profile h4 {
+    font-size: 30px;
+}
+.profile .bl {
+    font-weight: 600;
+}
+.profile .bl>ul li:nth-child(4),
+.profile .bl>ul li:last-child {
+    margin-bottom: 21px;
+}
+.profile .sm {
+    font-size: 14px;
+}
+.profile .sm {
+    line-height: 24px;
+}
+.about {
+    padding: 15px;
+}
+
+/***** SKILLS *****/
+#skill {
+    margin-bottom: 80px;
+}
+.skill h2 {
+    font-size: 30px;
+}
+.skills {
+    margin: 30px 0;
+}
+
 /***** PORTPOLIO *****/
 .g-3 {
     position: relative;
     z-index: 0;
+}
+.g-3 h2 {
+    padding-left: 15px;
+    font-size: 30px;
 }
 .g-3 .row {
     width: 100%;
@@ -284,10 +343,56 @@ header h1 {
 .pageNum {
     padding: 32px auto; 
     text-align: center;
+    margin: 20px 0 50px 0;
 }
 .pageNum span {
     padding: 8px 16px;
 }
 .pageNum span a {
     padding-top: 5px;
+}
+
+/***** CONTACT *****/
+.contact {
+    margin-bottom: 50px;
+}
+.contact h2 {
+    padding-left: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact input {
+    padding: 8px;
+    display: block;
+    border: none;
+    width: 100%;
+}
+.contact button {
+    margin-top: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ad8a48;
+}
+.contact button i {
+    margin-right: 8px;
+}
+
+/***** FOOTER *****/
+footer {
+    border-top: 1px solid #b0b0b0;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(215, 215, 215, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    margin: 0;
+    font-weight: 700;
+    color: #989898;
 }

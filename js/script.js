@@ -1,4 +1,6 @@
 $(function(){
+    $('.skills').myskillbar({});
+
     $('.ri-menu-line').click(function(){
         $('.hiddenbox').fadeIn(300);
         $('.hidden-s').animate({ 'margin-left' : -15 }, 300);
